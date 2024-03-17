@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Lexend";
+    src: url("https://db.onlinewebfonts.com/t/42dbf00de1681d38477679d3eadad56a.eot");
+    src: url("https://db.onlinewebfonts.com/t/42dbf00de1681d38477679d3eadad56a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/42dbf00de1681d38477679d3eadad56a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/42dbf00de1681d38477679d3eadad56a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/42dbf00de1681d38477679d3eadad56a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/42dbf00de1681d38477679d3eadad56a.svg#Lexend")format("svg");
+}
+
+@font-face {
+    font-family: "Lexend Medium";
+    src: url("https://db.onlinewebfonts.com/t/4e9a39f60cd3fbae96889bc7f03013f4.eot");
+    src: url("https://db.onlinewebfonts.com/t/4e9a39f60cd3fbae96889bc7f03013f4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4e9a39f60cd3fbae96889bc7f03013f4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4e9a39f60cd3fbae96889bc7f03013f4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4e9a39f60cd3fbae96889bc7f03013f4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4e9a39f60cd3fbae96889bc7f03013f4.svg#Lexend Medium")format("svg");
+}
+
+.Lexend{
+    font-family: "Lexend";
+}
+
+.Lexend-Medium{
+    font-family: "Lexend Medium";
+}
